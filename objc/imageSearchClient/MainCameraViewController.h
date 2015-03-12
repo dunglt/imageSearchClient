@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainCameraViewController.h
 //  imageSearchClient
 //
 //  Created by sonson on 2015/03/12.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainCameraViewController : UIViewController
 
 @end
-

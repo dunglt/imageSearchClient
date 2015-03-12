@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1472E6E31AB17D1C005004FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E6E21AB17D1C005004FA /* main.m */; };
 		1472E6E61AB17D1C005004FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E6E51AB17D1C005004FA /* AppDelegate.m */; };
-		1472E6E91AB17D1C005004FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E6E81AB17D1C005004FA /* ViewController.m */; };
 		1472E6EC1AB17D1C005004FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1472E6EA1AB17D1C005004FA /* Main.storyboard */; };
 		1472E6EE1AB17D1C005004FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1472E6ED1AB17D1C005004FA /* Images.xcassets */; };
 		1472E6F11AB17D1C005004FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1472E6EF1AB17D1C005004FA /* LaunchScreen.xib */; };
 		1472E6FD1AB17D1C005004FA /* imageSearchClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E6FC1AB17D1C005004FA /* imageSearchClientTests.m */; };
+		1472E7081AB17D6D005004FA /* MainCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1472E7071AB17D6D005004FA /* MainCameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		1472E6E21AB17D1C005004FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1472E6E41AB17D1C005004FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1472E6E51AB17D1C005004FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1472E6E71AB17D1C005004FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1472E6E81AB17D1C005004FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1472E6EB1AB17D1C005004FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1472E6ED1AB17D1C005004FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1472E6F01AB17D1C005004FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1472E6F61AB17D1C005004FA /* imageSearchClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageSearchClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1472E6FB1AB17D1C005004FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1472E6FC1AB17D1C005004FA /* imageSearchClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imageSearchClientTests.m; sourceTree = "<group>"; };
+		1472E7061AB17D6D005004FA /* MainCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCameraViewController.h; sourceTree = "<group>"; };
+		1472E7071AB17D6D005004FA /* MainCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				1472E6E41AB17D1C005004FA /* AppDelegate.h */,
 				1472E6E51AB17D1C005004FA /* AppDelegate.m */,
-				1472E6E71AB17D1C005004FA /* ViewController.h */,
-				1472E6E81AB17D1C005004FA /* ViewController.m */,
+				1472E7061AB17D6D005004FA /* MainCameraViewController.h */,
+				1472E7071AB17D6D005004FA /* MainCameraViewController.m */,
 				1472E6EA1AB17D1C005004FA /* Main.storyboard */,
 				1472E6ED1AB17D1C005004FA /* Images.xcassets */,
 				1472E6EF1AB17D1C005004FA /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1472E6E91AB17D1C005004FA /* ViewController.m in Sources */,
+				1472E7081AB17D6D005004FA /* MainCameraViewController.m in Sources */,
 				1472E6E61AB17D1C005004FA /* AppDelegate.m in Sources */,
 				1472E6E31AB17D1C005004FA /* main.m in Sources */,
 			);
@@ -414,6 +414,7 @@
 				1472E7021AB17D1C005004FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1472E7031AB17D1C005004FA /* Build configuration list for PBXNativeTarget "imageSearchClientTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				1472E7051AB17D1C005004FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
